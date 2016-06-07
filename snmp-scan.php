@@ -88,7 +88,7 @@ $net   = false;
 if (isset($opts['h']) || (empty($opts) && (!isset($config['nets']) || empty($config['nets'])))) {
     echo 'Usage: '.$argv[0].' -r <CIDR_Range> [-d] [-l] [-h]'.PHP_EOL;
     echo '  -r CIDR_Range     CIDR noted IP-Range to scan'.PHP_EOL;
-    echo '                    This argument is only requied if $config[\'nets\'] is not set'.PHP_EOL;
+    echo '                    This argument is only required if $config[\'nets\'] is not set'.PHP_EOL;
     echo '                    Example: 192.168.0.0/24'.PHP_EOL;
     echo '  -d                Enable Debug'.PHP_EOL;
     echo '  -l                Show Legend'.PHP_EOL;
