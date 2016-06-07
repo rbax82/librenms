@@ -5,7 +5,7 @@ To gather data from remote systems you can use LibreNMS in combination with chec
 
 Make sure that xinetd is installed on the host you want to run the agent on.
 
-The agent uses TCP-Port 6556, please allow access from the LibreNMS-Host and Poller-Nodes if you're using the Distributed Polling setup.
+The agent uses TCP-Port 6556, please allow access from the LibreNMS-Host and Poller-Nodes if you're using the Distributed Polling setup. The agent has support to poll NTP built-in, it simply must be enabled in the UI.
 
 On each of the hosts you would like to use the agent on then you need to do the following:
 
