@@ -28,7 +28,7 @@ This will point LibreNMS at the location of the nagios plugins - please ensure t
 
 Finally, you now need to add check-services.php to the current cron file (/etc/cron.d/librenms typically) like:
 ```bash
-*/5 * * * * librenms /opt/librenms/check-services.php >> /dev/null 2>&1
+*/5 * * * * librenms /opt/librenms/services-wrapper.py >> /dev/null 2>&1
 ```
 
 Now you can add services via the main Services link in the navbar, or via the 'Add Service' link within the device, services page.
